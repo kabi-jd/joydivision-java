@@ -1,0 +1,16 @@
+browser:
+  config:
+# ----- chromium-default -----
+    chromium:
+      name: chromium-default
+      browser-type: chromium
+      launch-options:
+        headless: false
+        timeout-in-secs: 200
+# ----- chromium-chrome -----
+    chromium-chrome:
+      name: chromium-chrome
+      browser-type: chrome
+      launch-options:
+        headless: false
+        timeout-in-secs: 180
